@@ -9,7 +9,7 @@ targetScope = 'subscription'
 // ========== //
 
 @minLength(2)
-@maxLength(4)
+@maxLength(5)
 @sys.description('The name of the resource group to deploy. (Default: AVD1)')
 param deploymentPrefix string = 'AVD1'
 
